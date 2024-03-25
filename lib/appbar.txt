@@ -1,0 +1,22 @@
+FutureBuilder(
+         future: getRequest(),
+         builder: (BuildContext context, AsyncSnapshot snapshot) {
+           return ListView.builder(
+             shrinkWrap: true,
+             itemCount: snapshot.data.length,
+             itemBuilder: (context, index) => ListTile( 
+               leading: Text(""),
+               title: Text(""),
+               subtitle: Text("")
+               contentPadding: EdgeInsets.only(left: 15, right: 15),
+               onTap: () {
+                print(index);
+               },
+             ),
+             
+           );
+         }
+       ),
+
+String audio = "https://ia802609.us.archive.org/13/items/quraninindonesia/001AlFaatihah.mp3";
+IconButton(onPressed: () async {launchUrlString(audio);}, icon: Icon(Icons.cloud_download_outlined, color: Color.fromARGB(255, 161, 161, 161), size: 24,)),
