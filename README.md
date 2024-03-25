@@ -15,7 +15,7 @@ Make sure you have Flutter and Dart installed on your machine.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/FathanRasyidi/alquran.git
+git clone https://github.com/FathanRasyidi/flutter-alquran.git
 ```
 
 2. Navigate to the project directory:
