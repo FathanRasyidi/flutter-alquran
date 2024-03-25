@@ -21,7 +21,7 @@ git clone https://github.com/FathanRasyidi/flutter-alquran.git
 2. Navigate to the project directory:
 
 ```bash
-cd alquran
+cd flutter-alquran
 ```
 
 3. Install dependencies:
