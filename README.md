@@ -36,6 +36,3 @@ flutter pub get
 flutter run
 ```
 
-### Reference
-
-https://www.behance.net/gallery/161804271/Bayan-Quran-App-UXUX-Case-Study?tracking_source=search_projects|alquran+quran&l=110
